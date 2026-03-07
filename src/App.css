@@ -1,3 +1,7 @@
+* {
+  font-family: serif;
+}
+
 .engagement-regular {
   font-family: "Engagement", cursive;
   font-weight: 400;
@@ -8,4 +12,27 @@
   font-family: "Monsieur La Doulaise", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.custom-btn {
+  border: 1px solid black;
+}
+
+.custom-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bg-nav {
+  background-color: rgb(255, 255, 255);
+}
+
+/* Hero Section */
+
+.hero-title {
+  border-bottom: 2px white solid;
 }

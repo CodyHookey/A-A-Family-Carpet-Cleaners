@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary py-3">
+    <nav className="navbar navbar-expand-lg bg-nav py-3 fixed-top">
       <div className="container">
         <a className="navbar-brand monsieur-la-doulaise-regular fs-2" href="/">
           A&A
