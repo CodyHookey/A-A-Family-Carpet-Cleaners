@@ -18,46 +18,46 @@ function AboutSection() {
         <div className="col-12 col-md-4">
           <div
             id="carouselExampleControlsNoTouching"
-            class="carousel slide"
+            className="carousel slide"
             data-bs-touch="true"
           >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src={ImageOne} class="d-block w-100" />
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img src={ImageOne} className="d-block w-100" />
               </div>
-              <div class="carousel-item">
-                <img src={ImageTwo} class="d-block w-100" alt="..." />
+              <div className="carousel-item">
+                <img src={ImageTwo} className="d-block w-100" alt="..." />
               </div>
-              <div class="carousel-item">
-                <img src={ImageFour} class="d-block w-100" alt="..." />
+              <div className="carousel-item">
+                <img src={ImageFour} className="d-block w-100" alt="..." />
               </div>
-              <div class="carousel-item">
-                <img src={ImageFive} class="d-block w-100" alt="..." />
+              <div className="carousel-item">
+                <img src={ImageFive} className="d-block w-100" alt="..." />
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              className="carousel-control-prev"
               type="button"
               data-bs-target="#carouselExampleControlsNoTouching"
               data-bs-slide="prev"
             >
               <span
-                class="carousel-control-prev-icon"
+                className="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Previous</span>
+              <span className="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              className="carousel-control-next"
               type="button"
               data-bs-target="#carouselExampleControlsNoTouching"
               data-bs-slide="next"
             >
               <span
-                class="carousel-control-next-icon"
+                className="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Next</span>
+              <span className="visually-hidden">Next</span>
             </button>
           </div>
         </div>
