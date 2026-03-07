@@ -1,0 +1,118 @@
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+
+import ImageOne from "../assets/image_001.jpeg";
+import ImageTwo from "../assets/image_002.jpeg";
+import ImageThree from "../assets/image_003.jpeg";
+import ImageFour from "../assets/image_004.jpeg";
+import ImageFive from "../assets/image_005.jpeg";
+
+function AboutSection() {
+  return (
+    <div className="container py-5">
+      <h3 className="mb-5 fw-bold text-center">
+        About A&A Family Carpet Cleaners
+      </h3>
+      <div className="row g-5">
+        <div className="col-12 col-md-4">
+          <div
+            id="carouselExampleControlsNoTouching"
+            class="carousel slide"
+            data-bs-touch="true"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src={ImageOne} class="d-block w-100" />
+              </div>
+              <div class="carousel-item">
+                <img src={ImageTwo} class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src={ImageFour} class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src={ImageFive} class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControlsNoTouching"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControlsNoTouching"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div className="col-12 col-md-7 d-flex flex-column justify-content-center">
+          <div className="mb-3">
+            <p>
+              A&A Family Carpet Cleaners is a family-run carpet cleaning
+              business founded by Anastasiia and Andrii. What started as a small
+              idea quickly grew into a dedicated service focused on helping
+              homes feel cleaner, fresher, and more comfortable.
+            </p>
+            <p>
+              As a family business built from the ground up, pride is taken in
+              every job. The goal is simple: provide professional carpet and
+              upholstery cleaning with attention to detail, reliability, and
+              genuine care for every customer’s home.
+            </p>
+            <p>
+              Using professional equipment and effective deep-cleaning methods,
+              A&A Family Carpet Cleaners works to remove dirt, stains, and
+              everyday buildup from carpets and furniture, helping to restore
+              them to their best condition.
+            </p>
+            <h5 className="fw-bold">What We Do</h5>
+            <p>
+              A&A Family Carpet Cleaners specialises in professional cleaning
+              services designed to refresh and revitalise your home, including:
+            </p>
+            <ul>
+              <li>Carpet cleaning</li>
+              <li>Sofa and upholstery cleaning</li>
+              <li>Mattress cleaning</li>
+              <li>Corner sofa cleaning</li>
+              <li>Armchair and furniture cleaning</li>
+            </ul>
+            <p>
+              Each service is carried out with care and a commitment to
+              delivering high-quality results.
+            </p>
+            <h5 className="fw-bold">A Family Business You Can Trust</h5>
+            <p>
+              Being a family-owned business means every customer and every home
+              is treated with respect. The focus is always on providing
+              dependable service, professional results, and a cleaner living
+              space for every household.
+            </p>
+          </div>
+          <button className="btn custom-btn px-5 py-3 mb-3">
+            <FontAwesomeIcon icon={faPhone} className="me-2" />
+            Call Us 07440 365853
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default AboutSection;
