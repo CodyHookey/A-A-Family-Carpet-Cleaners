@@ -17,11 +17,11 @@ function HeroSection() {
         backgroundPosition: "center",
       }}
     >
-      <div className="container vh-100 d-flex align-items-center text-center text-md-start">
+      <div className="container vh-100 d-flex align-items-center text-center text-md-start mt-5 mt-md-0">
         <div className="row">
-          <div className="col-12 col-md-6 d-flex align-items-center text-white">
+          <div className="col-12 col-md-6 d-flex align-items-center text-white mt-5 mt-md-0">
             <div>
-              <h1 className="mb-3 fw-bold hero-title pb-3">
+              <h1 className="mb-3 fw-bold hero-title pb-3 mt-5 mt-md-0">
                 Professional Carpet Cleaning Services and More in Milton Keynes
               </h1>
               <h5 className="mb-3">
@@ -30,34 +30,34 @@ function HeroSection() {
                 powerful deep-clean technology that removes stains, dirt, and
                 pet odors.
               </h5>
-              <h5 className="ms-4 mb-4">
+              <h5 className="ms-md-4 mb-4">
                 <FontAwesomeIcon icon={faCheck} /> Carpets
               </h5>
-              <h5 className="ms-4 mb-4">
+              <h5 className="ms-md-4 mb-4">
                 <FontAwesomeIcon icon={faCheck} /> Sofas & Upholstery
               </h5>
-              <h5 className="ms-4 mb-4">
+              <h5 className="ms-md-4 mb-4">
                 <FontAwesomeIcon icon={faCheck} /> Mattresses
               </h5>
-              <h5 className="ms-4 mb-4">
+              <h5 className="ms-md-4 mb-4">
                 <FontAwesomeIcon icon={faCheck} /> Corner Sofas & Armchairs
               </h5>
             </div>
           </div>
 
-          <div className="col-12 col-md-4 ms-auto d-flex align-items-center">
+          <div className="col-12 col-md-5 ms-auto d-flex align-items-center justify-content-center">
             <div className="box-shadow py-5 rounded text-center bg-white">
               <h3 className="mb-5 fw-bold">Get a Quote Today!</h3>
               <p className="px-5 mb-5">
                 Tell us what you need done and we will be in touch shortly
               </p>
-              <button className="btn custom-btn px-5 py-3 fs-5 mb-3">
+              <button className="btn custom-btn px-5 py-3 mb-3">
                 <FontAwesomeIcon icon={faPhone} className="me-2" />
                 Call Us 07440 365853
               </button>
               <p>Or</p>
               <a
-                className="btn custom-btn px-5 py-3 fs-5"
+                className="btn custom-btn px-5 py-3"
                 href="mailto:familycarpetcliners@gmail.com"
               >
                 <FontAwesomeIcon icon={faEnvelope} className="me-2" />
