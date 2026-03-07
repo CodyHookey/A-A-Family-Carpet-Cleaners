@@ -62,7 +62,7 @@ function AboutSection() {
           </div>
         </div>
         <div className="col-12 col-md-7 d-flex flex-column justify-content-center">
-          <div className="mb-3">
+          <div className="mb-3 text-center text-md-start">
             <p>
               A&A Family Carpet Cleaners is a family-run carpet cleaning
               business founded by Anastasiia and Andrii. What started as a small
@@ -86,13 +86,11 @@ function AboutSection() {
               A&A Family Carpet Cleaners specialises in professional cleaning
               services designed to refresh and revitalise your home, including:
             </p>
-            <ul>
-              <li>Carpet cleaning</li>
-              <li>Sofa and upholstery cleaning</li>
-              <li>Mattress cleaning</li>
-              <li>Corner sofa cleaning</li>
-              <li>Armchair and furniture cleaning</li>
-            </ul>
+            <p className="ms-3">&bull; Carpet cleaning</p>
+            <p className="ms-3">&bull; Sofa and upholstery cleaning</p>
+            <p className="ms-3">&bull; Mattress cleaning</p>
+            <p className="ms-3">&bull; Corner sofa cleaning</p>
+            <p className="ms-3">&bull; Armchair and furniture cleaning</p>
             <p>
               Each service is carried out with care and a commitment to
               delivering high-quality results.
