@@ -5,8 +5,8 @@ import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
 
 import Home from "./pages/home";
-import Contact from "./pages/contact";
 import NavBar from "./components/navbar";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -14,11 +14,11 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
 
         {/* Catch all unknown routes */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
+      <Footer />
     </>
   );
 }

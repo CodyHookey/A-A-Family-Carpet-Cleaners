@@ -10,7 +10,7 @@ import ImageFive from "../assets/image_005.jpeg";
 
 function AboutSection() {
   return (
-    <div className="container py-5">
+    <div className="container py-5" id="about">
       <h3 className="mb-5 fw-bold text-center">
         About A&A Family Carpet Cleaners
       </h3>

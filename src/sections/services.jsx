@@ -9,9 +9,9 @@ import {
 
 function ServicesSection() {
   return (
-    <div className="bg-light">
+    <div className="bg-light" id="services">
       <div className="container py-5 text-center">
-        <h3 className="mb-5">Our Cleaning Services Include</h3>
+        <h3 className="mb-5 fw-bold">Our Cleaning Services Include</h3>
         <div className="row g-5">
           <div className="col-12 col-md-3">
             <div className="d-flex flex-column align-items-center">
