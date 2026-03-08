@@ -12,8 +12,8 @@ function Referral() {
           delivering professional carpet and upholstery cleaning with care,
           reliability, and attention to detail.
         </h5>
-        <div className="row g-3 text-center">
-          <div className="col-12 col-md-3">
+        <div className="row text-center">
+          <div className="col-12 col-md-3 mb-3 mb-md-0">
             <div className="bg-white box-shadow rounded p-3 h-100">
               <h5 className="fw-bold mb-3">Family-owned and operated</h5>
               <p>
@@ -23,7 +23,7 @@ function Referral() {
               </p>
             </div>
           </div>
-          <div className="col-12 col-md-3">
+          <div className="col-12 col-md-3 mb-3 mb-md-0">
             <div className="bg-white box-shadow rounded p-3 h-100">
               <h5 className="fw-bold mb-3">
                 Professional carpet & upholstery cleaning
@@ -35,7 +35,7 @@ function Referral() {
               </p>
             </div>
           </div>
-          <div className="col-12 col-md-3">
+          <div className="col-12 col-md-3 mb-3 mb-md-0">
             <div className="bg-white box-shadow rounded p-3 h-100">
               <h5 className="fw-bold mb-3">Reliable and friendly service</h5>
               <p>
@@ -44,7 +44,7 @@ function Referral() {
               </p>
             </div>
           </div>
-          <div className="col-12 col-md-3">
+          <div className="col-12 col-md-3 mb-3 mb-md-0">
             <div className="bg-white box-shadow rounded p-3 h-100">
               <h5 className="fw-bold mb-3">
                 Helping homes look fresh and clean again

@@ -14,8 +14,8 @@ function AboutSection() {
       <h3 className="mb-5 fw-bold text-center">
         About A&A Family Carpet Cleaners
       </h3>
-      <div className="row g-5">
-        <div className="col-12 col-md-4">
+      <div className="row">
+        <div className="col-12 col-md-4 mb-5 mb-md-0">
           <div
             id="carouselExampleControlsNoTouching"
             className="carousel slide"

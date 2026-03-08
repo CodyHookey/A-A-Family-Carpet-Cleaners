@@ -12,8 +12,8 @@ function ServicesSection() {
     <div className="bg-light" id="services">
       <div className="container py-5 text-center">
         <h3 className="mb-5 fw-bold">Our Cleaning Services Include</h3>
-        <div className="row g-5">
-          <div className="col-12 col-md-3">
+        <div className="row">
+          <div className="col-12 col-md-3 mb-5 mb-md-0">
             <div className="d-flex flex-column align-items-center">
               <div
                 style={{
@@ -32,7 +32,7 @@ function ServicesSection() {
               <h4 className="fw-bold">Carpets</h4>
             </div>
           </div>
-          <div className="col-12 col-md-3">
+          <div className="col-12 col-md-3 mb-5 mb-md-0">
             <div className="d-flex flex-column align-items-center">
               <div
                 style={{
@@ -51,7 +51,7 @@ function ServicesSection() {
               <h4 className="fw-bold">Sofas & Upholstery</h4>
             </div>
           </div>
-          <div className="col-12 col-md-3">
+          <div className="col-12 col-md-3 mb-5 mb-md-0">
             <div className="d-flex flex-column align-items-center">
               <div
                 style={{
@@ -70,7 +70,7 @@ function ServicesSection() {
               <h4 className="fw-bold">Mattresses</h4>
             </div>
           </div>
-          <div className="col-12 col-md-3">
+          <div className="col-12 col-md-3 mb-5 mb-md-0">
             <div className="d-flex flex-column align-items-center">
               <div
                 style={{
