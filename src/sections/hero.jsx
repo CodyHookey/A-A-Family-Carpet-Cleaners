@@ -12,7 +12,7 @@ function HeroSection() {
   return (
     <div
       style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${HeroImage})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${AltImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
