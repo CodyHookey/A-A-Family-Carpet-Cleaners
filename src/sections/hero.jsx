@@ -17,7 +17,10 @@ function HeroSection() {
         backgroundPosition: "center",
       }}
     >
-      <div className="container vh-100 d-flex align-items-center text-center text-md-start mt-5 mt-md-0">
+      <div
+        className="container d-flex align-items-center text-center text-md-start mt-5 mt-md-0 pb-5 pb-md-0"
+        style={{ minHeight: "100vh" }}
+      >
         <div className="row">
           <div className="col-12 col-md-6 d-flex align-items-center text-white mt-5 mt-md-0">
             <div>
