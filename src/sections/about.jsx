@@ -103,10 +103,10 @@ function AboutSection() {
               space for every household.
             </p>
           </div>
-          <button className="btn custom-btn px-5 py-3 mb-3">
+          <a href="tel:07440365853" className="btn custom-btn px-5 py-3 mb-3">
             <FontAwesomeIcon icon={faPhone} className="me-2" />
             Call Us 07440 365853
-          </button>
+          </a>
         </div>
       </div>
     </div>

@@ -54,10 +54,13 @@ function HeroSection() {
               <p className="px-5 mb-5">
                 Tell us what you need done and we will be in touch shortly
               </p>
-              <button className="btn custom-btn px-5 py-3 mb-3">
+              <a
+                href="tel:07440365853"
+                className="btn custom-btn px-5 py-3 mb-3"
+              >
                 <FontAwesomeIcon icon={faPhone} className="me-2" />
                 Call Us 07440 365853
-              </button>
+              </a>
               <p>Or</p>
               <a
                 className="btn custom-btn px-5 py-3"
