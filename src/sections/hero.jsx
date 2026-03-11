@@ -9,14 +9,11 @@ import HeroImage from "../assets/newHeroImage.jpg";
 
 function HeroSection() {
   return (
-    <div
-      className="container d-flex align-items-center text-center text-lg-start mt-5 mt-lg-0 pb-5 pb-md-0"
-      style={{ minHeight: "100vh" }}
-    >
+    <div className="container d-flex align-items-center text-center text-lg-start mt-lg-0 py-5">
       <div className="row mt-5">
-        <div className="col-12 col-md-7 d-flex align-items-center">
+        <div className="col-12 col-lg-7 d-flex align-items-center">
           <div>
-            <h1 className="mb-3 fw-bold hero-title pb-3 mt-5 mt-lg-0">
+            <h1 className="mb-3 fw-bold hero-title pb-3">
               Professional{" "}
               <span className="primary-blue">Family-Owned Carpet Cleaning</span>{" "}
               Services and More in Bedford, Northampton & Milton Keynes
@@ -39,7 +36,7 @@ function HeroSection() {
           </div>
         </div>
 
-        <div className="col-12 col-lg-5 ms-auto d-flex align-items-center justify-content-center order-first order-lg-last mb-5 mt-5">
+        <div className="col-12 col-lg-5 ms-auto d-flex align-items-center justify-content-center order-first order-lg-last mb-5">
           <img
             src={HeroImage}
             alt=""

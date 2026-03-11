@@ -13,7 +13,7 @@ function Referral() {
           reliability, and attention to detail.
         </h5>
         <div className="row text-center">
-          <div className="col-12 col-md-3 mb-3 mb-md-0">
+          <div className="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
             <div className="card h-100 box-shadow ">
               <div className="p-3 card-img-top primary-blue-bg d-flex align-items-center justify-content-center">
                 <h5 className="text-white mb-0 mt-0 fw-bold">
@@ -29,7 +29,7 @@ function Referral() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-3 mb-3 mb-md-0">
+          <div className="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
             <div className="card h-100 box-shadow ">
               <div className="p-3 card-img-top primary-blue-bg d-flex align-items-center justify-content-center">
                 <h5 className="text-white mb-0 mt-0 fw-bold">
@@ -45,7 +45,7 @@ function Referral() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-3 mb-3 mb-md-0">
+          <div className="col-12 col-md-6 col-lg-3 mb-3 mb-md-0">
             <div className="card h-100 box-shadow ">
               <div className="p-3 card-img-top primary-blue-bg d-flex align-items-center justify-content-center">
                 <h5 className="text-white mb-0 mt-0 fw-bold">
@@ -60,7 +60,7 @@ function Referral() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-3 mb-3 mb-md-0">
+          <div className="col-12 col-md-6 col-lg-3 mb-3 mb-md-0">
             <div className="card h-100 box-shadow ">
               <div className="p-3 card-img-top primary-blue-bg d-flex align-items-center justify-content-center">
                 <h5 className="text-white mb-0 mt-0 fw-bold">
