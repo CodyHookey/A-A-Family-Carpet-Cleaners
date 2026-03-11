@@ -20,7 +20,7 @@ function Contact() {
       <div className="d-flex flex-column flex-md-row justify-content-center align-items-center mb-5">
         <a
           href="tel:07440365853"
-          className="btn custom-btn px-5 py-3 mb-3 me-3"
+          className="btn custom-btn px-5 py-3 mb-3 me-md-3"
         >
           <FontAwesomeIcon icon={faPhone} className="me-2" />
           Message Us
