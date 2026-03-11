@@ -6,6 +6,7 @@ import ServicesSection from "../sections/services";
 import AboutSection from "../sections/about";
 import Referral from "../sections/whyChooseUs";
 import Contact from "../sections/contact";
+import Testimonials from "../sections/testimonials";
 
 class Home extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class Home extends React.Component {
         <HeroSection />
         <QuickInfo />
         <ServicesSection />
+        <Testimonials />
         <AboutSection />
         <Referral />
         <Contact />

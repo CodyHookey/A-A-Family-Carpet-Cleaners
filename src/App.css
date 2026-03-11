@@ -2,6 +2,20 @@
   font-family: serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #001219;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
 .engagement-regular {
   font-family: "Engagement", cursive;
   font-weight: 400;
@@ -15,11 +29,12 @@
 }
 
 .custom-btn {
-  border: 1px solid black;
+  background-color: #00a8e8;
+  color: white;
 }
 
 .custom-btn:hover {
-  background-color: black;
+  background-color: #015f84;
   color: white;
 }
 
@@ -27,12 +42,54 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.box-shadow-two {
+  box-shadow:
+    rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
 .bg-nav {
   background-color: rgb(255, 255, 255);
 }
 
+.primary-blue {
+  color: #00a8e8;
+}
+
+.primary-blue-bg {
+  background-color: #00a8e8;
+}
+
+.light-blue-bg {
+  background-color: #f6fdff;
+}
+
+.dark-blue-bg {
+  background-color: #001219;
+}
+
+.custom-link {
+  color: #001219;
+}
+
+.custom-link:hover {
+  color: #00a8e8;
+}
+
+.custom-action-link {
+  color: #00a8e8;
+  text-decoration: none;
+}
+
+.custom-action-link:hover {
+  color: #015f84;
+}
+
 /* Hero Section */
 
-.hero-title {
-  border-bottom: 2px white solid;
-}
+/* .hero-image {
+  border-top-left-radius: 50% !important;
+  border-top-right-radius: 50% !important;
+} */
+
+/* About Section */
