@@ -9,7 +9,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <h5 className="text-white">A&A Family Carpet Cleaners</h5>
+            <h5 className="text-white fw-bold">A&A Family Carpet Cleaners</h5>
             <p className="text-white">
               Professional carpet and upholstery cleaning delivered with care,
               reliability, and attention to detail.
@@ -17,7 +17,7 @@ function Footer() {
           </div>
 
           <div className="col-md-2">
-            <h6 className="text-white">Quick Links</h6>
+            <h6 className="text-white fw-bold">Quick Links</h6>
             <ul className="list-unstyled">
               <li>
                 <a href="/" className="text-white text-decoration-none">
@@ -43,7 +43,7 @@ function Footer() {
           </div>
 
           <div className="col-md-3">
-            <h6 className="text-white">Contact</h6>
+            <h6 className="text-white fw-bold">Contact</h6>
             <p>
               <a
                 href="tel:07440365853"
@@ -64,7 +64,7 @@ function Footer() {
           </div>
 
           <div className="col-md-3">
-            <h6 className="text-white">Service Area</h6>
+            <h6 className="text-white fw-bold">Service Area</h6>
             <p className="text-white">
               Milton Keynes, Bedford, Northampton & surrounding areas
             </p>
