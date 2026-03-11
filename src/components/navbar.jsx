@@ -7,6 +7,8 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 import Logo from "../assets/A-A-Logo-SVG.svg";
 
+import { Link } from "react-router-dom";
+
 function NavBar() {
   const [scrolled, setScrolled] = useState(false);
 
@@ -61,9 +63,9 @@ function NavBar() {
                 </a>
               </li>
               <li className="nav-item me-4">
-                <a className="nav-link custom-link" href="/our-work">
+                <Link to="/our-work" className="nav-link custom-link">
                   Our Work
-                </a>
+                </Link>
               </li>
             </ul>
 
@@ -85,9 +87,9 @@ function NavBar() {
                   </a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="/our-work">
+                  <Link to="/our-work" className="nav-link custom-link">
                     Our Work
-                  </a>
+                  </Link>
                 </li>
                 <hr />
               </div>
@@ -144,9 +146,9 @@ function NavBar() {
                 </a>
               </li>
               <li className="nav-item me-4">
-                <a className="nav-link custom-link" href="/our-work">
+                <Link to="/our-work" className="nav-link custom-link">
                   Our Work
-                </a>
+                </Link>
               </li>
             </ul>
 
@@ -168,9 +170,9 @@ function NavBar() {
                   </a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="/our-work">
+                  <Link to="/our-work" className="nav-link custom-link">
                     Our Work
-                  </a>
+                  </Link>
                 </li>
                 <hr />
               </div>

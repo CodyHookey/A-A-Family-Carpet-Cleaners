@@ -3,6 +3,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="dark-blue-bg text-white py-5 text-center text-md-start">
@@ -35,9 +37,12 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/our-work" className="text-white text-decoration-none">
+                <Link
+                  to="/our-work"
+                  className="text-white text-decoration-none"
+                >
                   Our Work
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#contact" className="text-white text-decoration-none">
