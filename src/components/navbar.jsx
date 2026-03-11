@@ -61,8 +61,8 @@ function NavBar() {
                 </a>
               </li>
               <li className="nav-item me-4">
-                <a className="nav-link custom-link" href="/gallery">
-                  Gallery
+                <a className="nav-link custom-link" href="/our-work">
+                  Our Work
                 </a>
               </li>
             </ul>
@@ -85,8 +85,8 @@ function NavBar() {
                   </a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="/gallery">
-                    Gallery
+                  <a className="nav-link" href="/our-work">
+                    Our Work
                   </a>
                 </li>
                 <hr />
@@ -144,8 +144,8 @@ function NavBar() {
                 </a>
               </li>
               <li className="nav-item me-4">
-                <a className="nav-link custom-link" href="/gallery">
-                  Gallery
+                <a className="nav-link custom-link" href="/our-work">
+                  Our Work
                 </a>
               </li>
             </ul>
@@ -168,8 +168,8 @@ function NavBar() {
                   </a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="/gallery">
-                    Gallery
+                  <a className="nav-link" href="/our-work">
+                    Our Work
                   </a>
                 </li>
                 <hr />

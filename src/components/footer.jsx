@@ -35,6 +35,11 @@ function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/our-work" className="text-white text-decoration-none">
+                  Our Work
+                </a>
+              </li>
+              <li>
                 <a href="#contact" className="text-white text-decoration-none">
                   Contact
                 </a>
