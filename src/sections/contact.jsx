@@ -37,7 +37,10 @@ function Contact() {
       <h4 className="fw-bold">Socials</h4>
       <h5 className="mb-5">Follow us on our socials.</h5>
       <div className="d-flex justify-content-center">
-        <a href="https://www.facebook.com/people/AA-Family-Carpet-Cleaners/61587477011232/?rdid=x28bKMWIiLlSMQfh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18Ls7jF6X2%2F">
+        <a
+          href="https://www.facebook.com/people/AA-Family-Carpet-Cleaners/61587477011232/?rdid=x28bKMWIiLlSMQfh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18Ls7jF6X2%2F"
+          aria-label="Facebook"
+        >
           <FontAwesomeIcon
             icon={faSquareFacebook}
             className="me-3"
@@ -45,7 +48,10 @@ function Contact() {
             style={{ color: "#00a8e8" }}
           />
         </a>
-        <a href="https://www.instagram.com/family_carpet_cleners_ua">
+        <a
+          href="https://www.instagram.com/family_carpet_cleners_ua"
+          aria-label="Instagram"
+        >
           <FontAwesomeIcon
             icon={faSquareInstagram}
             className="me-3"
@@ -53,7 +59,10 @@ function Contact() {
             style={{ color: "#00a8e8" }}
           />
         </a>
-        <a href="https://www.tiktok.com/@family_carpet_cleners_ua">
+        <a
+          href="https://www.tiktok.com/@family_carpet_cleners_ua"
+          aria-label="Tiktok"
+        >
           <FontAwesomeIcon
             icon={faTiktok}
             size="2xl"

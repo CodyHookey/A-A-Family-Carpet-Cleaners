@@ -31,6 +31,7 @@ function NavBar() {
           <a
             className="navbar-brand monsieur-la-doulaise-regular fs-2"
             href="/"
+            aria-label="Home Page"
           >
             <img src={Logo} className="img-fluid" alt="" width={"100px"} />
           </a>
@@ -72,17 +73,17 @@ function NavBar() {
             <ul className="navbar-nav ms-auto">
               <div className="d-lg-none">
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link custom-link" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#about">
+                  <a className="nav-link custom-link" href="#about">
                     About
                   </a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#services">
+                  <a className="nav-lin custom-link" href="#services">
                     Services
                   </a>
                 </li>
@@ -155,17 +156,17 @@ function NavBar() {
             <ul className="navbar-nav ms-auto">
               <div className="d-lg-none">
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="/">
+                  <a className="nav-link custom-link" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#about">
+                  <a className="nav-link custom-link" href="#about">
                     About
                   </a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#services">
+                  <a className="nav-link custom-link" href="#services">
                     Services
                   </a>
                 </li>
