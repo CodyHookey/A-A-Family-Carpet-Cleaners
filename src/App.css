@@ -16,18 +16,6 @@ h1 {
   font-size: clamp(2rem, 5vw, 3.5rem);
 }
 
-.engagement-regular {
-  font-family: "Engagement", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.monsieur-la-doulaise-regular {
-  font-family: "Monsieur La Doulaise", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .custom-btn {
   background-color: #00a8e8;
   color: white;
