@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
-import ImageSix from "../assets/IMG_6062.png";
+import ImageSix from "../assets/IMG_6062.jpg";
 
 function AboutSection() {
   return (
@@ -15,6 +15,8 @@ function AboutSection() {
             alt=""
             className="img-fluid rounded about-img mb-5"
             style={{ maxHeight: "640px" }}
+            loading="lazy"
+            decoding="async"
           />
         </div>
         <div className="col-12 col-lg-7 d-flex flex-column justify-content-center">
