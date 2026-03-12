@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
-import ImageSix from "../assets/IMG_6062.jpg";
+import ImageSix from "../assets/IMG_6062.webp";
 
 function AboutSection() {
   return (

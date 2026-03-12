@@ -5,7 +5,7 @@ import {
   faPhone,
   faCheck,
 } from "@fortawesome/free-solid-svg-icons";
-import HeroImage from "../assets/newHeroImage.jpg";
+import HeroImage from "../assets/newHeroImage.webp";
 
 function HeroSection() {
   return (
