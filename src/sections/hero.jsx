@@ -42,6 +42,8 @@ function HeroSection() {
             alt=""
             className="img-fluid rounded hero-image"
             width={"450px"}
+            fetchpriority="high"
+            decoding="async"
           />
         </div>
       </div>
